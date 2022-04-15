@@ -1,0 +1,26 @@
+  158    1 0xffffff7f825cf000 0x13000    0x13000    com.apple.driver.AppleHDAController (283.15) D2852DFB-1FF7-3E0E-82D8-BBD7F5F493E0 <157 156 123 16 9 8 7 6 3 1>
+  172    0 0xffffff7f82516000 0x92000    0x92000    com.apple.driver.AppleHDA (283.15) 45005D51-44C8-3CF1-8DA0-352A59B8DE78 <171 158 157 156 128 123 8 7 6 3 1>
+   60    4 0xffffff8002ea0000 0x2000     0x2000     com.apple.iokit.IOSMBusFamily (1.1) FBCF7261-2104-3F79-ADCD-C3DDD5B63986 <7 6 3>
+  122    1 0xffffff7f82780000 0x7000     0x7000     com.apple.driver.AppleSMBusController (1.0.18d1) 5BEE3EF0-6AAA-3712-A593-16B5BCF776C9 <60 16 15 7 6 3>
+   29    0 0xffffff800183b000 0x1d000    0x1d000    com.apple.driver.AppleIntelCPUPowerManagement (222.0.0) 14D30C1F-5EA2-304A-AED5-77AD418E717E <9 8 7 6 3 1>
+  100    0 0xffffff8001865000 0x2000     0x2000     com.apple.driver.AppleIntelCPUPowerManagementClient (222.0.0) 6316B9BA-9F45-3550-A78A-2EB46EA0830C <9 8 7 6 3 1>
+   18    2 0xffffff8001325000 0x78000    0x78000    com.apple.driver.AppleACPIPlatform (6.1) 91B4B751-F438-3AB2-AE4B-59BFE741B52C <17 16 15 9 8 7 6 3 1>
+  141    0 0xffffff7f82b47000 0xe000     0xe000     com.apple.driver.ACPI_SMC_PlatformPlugin (1.0.0) C7A28892-46A7-3BF2-A507-1A28C2419D9B <140 139 17 16 15 9 8 7 6 3>
+Index Refs Address            Size       Wired      Name (Version) UUID <Linked Against>
+   52    1 0                  0x2a4000   0x2a4000   as.acidanthera.BrcmFirmwareStore (2.6.1) 570D21DB-DAB4-3331-B606-55691287CDF9 <7 6 3>
+   53   10 0                  0x2e000    0x2e000    as.vit9696.Lilu (1.6.0) 6167D1C2-7FCA-3319-8246-9CAAFA704235 <9 7 6 3 2 1>
+   54    0 0                  0x81000    0x81000    as.vit9696.WhateverGreen (1.5.8) 82AA95B6-925F-35BF-A10E-527D98B3F235 <53 16 9 7 6 3 2 1>
+   55    0 0                  0xe000     0xe000     as.lvs1974.AirportBrcmFixup (2.1.4) A77978E4-5380-38FA-A8C1-EE045FE6211C <53 16 9 7 6 3 2 1>
+   56    0 0                  0x197000   0x197000   as.vit9696.AppleALC (1.7.0) 57537BA7-ADE5-3112-A27B-C45F0CC6414A <53 16 9 7 6 3 1>
+   57    0 0                  0xa000     0xa000     as.acidanthera.BlueToolFixup (2.6.1) 18E5797A-7E34-3670-9013-1F04275F75FF <53 9 7 6 3 2 1>
+   58    0 0                  0x8000     0x8000     com.1Revenger1.ECEnabler (1.0.2) 382F5A34-BAB9-34EA-847E-35F877F053C6 <53 9 7 6 3 2 1>
+   59    3 0                  0x1a000    0x1a000    as.vit9696.VirtualSMC (1.2.9) F9C408AE-BACC-333E-BDDE-C309971A3760 <53 15 9 7 6 3 1>
+   61    0 0                  0x18000    0x18000    ru.usrsse2.SMCBatteryManager (1.2.9) 9F921594-471D-307D-8A26-E015CAD250C2 <60 59 53 15 9 7 6 3 1>
+   62    0 0                  0xf000     0xf000     as.lvs1974.SMCDellSensors (1.2.9) 9551217C-00B5-34EA-BABB-0A6F312CAA43 <59 53 9 7 6 3 2 1>
+   63    0 0                  0xf000     0xf000     as.vit9696.SMCProcessor (1.2.9) 54412E80-14C3-3CE9-A40C-A5AF043F0DD9 <59 53 15 9 7 6 3 2 1>
+   71    0 0                  0xa000     0xa000     as.lvs1974.RTCMemoryFixup (1.0.7) 4617D854-A3CA-30A5-8A7C-B51B3D97D789 <53 9 7 6 3 2 1>
+   73    2 0                  0x19000    0x19000    as.acidanthera.voodoo.driver.PS2Controller (2.2.8) E72A38F2-CDC4-3E4F-85BE-C94041B39DCC <15 9 7 6 3 1>
+   77    0 0                  0x2a000    0x2a000    as.acidanthera.mieze.IntelMausi (1.0.7) 82B83B99-6FE0-3D1F-91BF-E22233968775 <50 16 7 6 3 1>
+   98    0 0                  0xd000     0xd000     as.acidanthera.voodoo.driver.PS2Keyboard (2.2.8) 89E380C8-F0BF-3A86-9620-4A6D9481E8DF <73 68 9 7 6 3 1>
+   99    0 0                  0xb000     0xb000     as.acidanthera.voodoo.driver.PS2Mouse (2.2.8) 37EA9461-ADD1-38A6-A290-E027727ED621 <73 68 7 6 3>
+  120    0 0                  0xe000     0xe000     as.acidanthera.BrcmPatchRAM3 (2.6.1) 93365FCA-9960-3569-B79E-E9EC60462460 <52 24 7 6 3 1>

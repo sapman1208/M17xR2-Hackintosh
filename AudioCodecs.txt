@@ -1,0 +1,14 @@
+Codecs Detecteds:
+
+Vendor: AMD/ATI DP/HDMI
+Name: R6xx
+Codec: 0x1002aa01
+
+Vendor: ONBOARD
+Name: 
+Codec: 0x111d7675
+
+(AppleHDA)	IDT 92HD73C1 (111d:7675) Rev.(00100103)
+		Controller 8086:3b56 (sub-ven:1028:043a)
+(AppleHDA)	ATI R6xx HDMI (1002:aa01) Rev.(00100100)
+		Controller 1002:aa30 (sub-ven:1028:043a)

@@ -1,0 +1,1 @@
+machdep.cpu.brand_string: Intel(R) Core(TM) i7 CPU       X 940  @ 2.13GHz
