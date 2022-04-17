@@ -38,7 +38,7 @@ HDMI Audio (Device ID 0x1002AA30) (Sub Device 0x1028043A) (Codec 0x1002AA01)
 
 Touchpad 
 
-AlienwareFX Illuminated Keyboard (On USB 2.0 Bus 12 Mb/s) (Device ID 0x512187c)
+AlienwareFX Illuminated LEDs (On USB 2.0 Bus 12 Mb/s) (Device ID 0x512187c)
 
 Webcam 2.0MP (On USB 2.0 Bus 480 Mb/s) (Device ID 0x64120c45)
 
@@ -65,5 +65,7 @@ Rear Headphone Jack (Front one works and switches between speaker/headphone. Int
 Line out jack
 
 DRM
+
+Screen Airplay
 
 Maps/Find My (Likely due to Non-Metal Graphics Card) (Open Legacy Patcher was used to patch video. Device ID 0x945a1002 was added to AMD4800Controller.kext & AMDLegacySupport.kext in Recovery Mode after installing the patch) 
