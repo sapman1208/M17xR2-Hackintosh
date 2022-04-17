@@ -55,9 +55,15 @@ Monterey 12.2.1
 Features Currently Not Working:
 
 Sleep/Wake
+
 HDMI Audio
+
 Card Reader 8-in-1
+
 Rear Headphone Jack (Front one works and switches between speaker/headphone. Interal Mic works and switches betweeen internal mic/mic jack)
+
 Line out jack
+
 DRM
+
 Maps/Find My (Likely due to Non-Metal Graphics Card) (Open Legacy Patcher was used to patch video. Device ID 0x945a1002 was added to AMD4800Controller.kext & AMDLegacySupport.kext in Recovery Mode after installing the patch) 
