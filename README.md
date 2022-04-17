@@ -1,6 +1,6 @@
 This repository contains files used on an M17xR2 Alienware laptop with a modded bios. The bios of the laptop used can be found at https://www.bios-mods.com/BIOS/index.php?dir=Phoenix%2FAlienware%2FM17x-R2%2F&download=M17x-R2_A10_V6MOD.ROM
 
-Hardware:
+## Hardware:
 
 Intel Core i7-940XM Processor Extreme Edition 1st Generation Quad Core 2.13 GHz (Max Turbo Boost of Core 1 - 3.33 GHz, Core 2 - 3.20 GHz, Core 3 - 2.40 GHz, Core 4 - 2.40 GHz) (Max TDP 55W) (1200 MHz Low Frequency Mode) (8 Threads) (133 MHz Base Clock Frequency) (No iGPU) (Clarksfield)
 
@@ -48,11 +48,11 @@ Power 9-cell Lithium ion battery
 
 
 
-Current Latest Version of macOS Used and Working:
+## Current Latest Version of macOS Used and Working:
 Monterey 12.2.1
 
 
-Features Currently Not Working:
+## Features Currently Not Working:
 
 Sleep/Wake
 
