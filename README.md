@@ -49,16 +49,12 @@ Power 9-cell Lithium ion battery
 
 
 ## Current Latest Version of macOS Used and Working:
-Monterey 12.2.1
+Big Sur 11.2.3
 
 
 ## Features Currently Not Working:
 
-Sleep/Wake
-
 HDMI Audio
-
-Card Reader 8-in-1
 
 Rear Headphone Jack (Front one works and switches between speaker/headphone. Interal Mic works and switches betweeen internal mic/mic jack)
 
@@ -66,6 +62,6 @@ Line out jack
 
 DRM
 
-Screen Airplay
+Airplay Display
 
-Maps/Find My (Likely due to Non-Metal Graphics Card) (Open Legacy Patcher was used to patch video. Device ID 0x945a1002 was added to AMD4800Controller.kext & AMDLegacySupport.kext in Recovery Mode after installing the patch) 
+Sidecar
