@@ -1,29 +1,31 @@
 ACPIPLAT LOG :-
 Executing: /usr/bin/kmutil showloaded
 No variant specified, falling back to release
-   18    2 0xffffff8001325000 0x78000    0x78000    com.apple.driver.AppleACPIPlatform (6.1) 91B4B751-F438-3AB2-AE4B-59BFE741B52C <17 16 15 9 8 7 6 3 1>
+   16    2 0xffffff8001296000 0x77000    0x77000    com.apple.driver.AppleACPIPlatform (6.1) 2F2AA264-6BD5-3E4F-829C-8952B3ABB2D5 <15 14 13 8 7 6 5 3 1>
 END ACPIPLAT LOG.
  
  
 APPLEINTELCPU LOG:-
 Executing: /usr/bin/kmutil showloaded
 No variant specified, falling back to release
-   29    0 0xffffff800183b000 0x1d000    0x1d000    com.apple.driver.AppleIntelCPUPowerManagement (222.0.0) 14D30C1F-5EA2-304A-AED5-77AD418E717E <9 8 7 6 3 1>
-  100    0 0xffffff8001865000 0x2000     0x2000     com.apple.driver.AppleIntelCPUPowerManagementClient (222.0.0) 6316B9BA-9F45-3550-A78A-2EB46EA0830C <9 8 7 6 3 1>
+   27    0 0xffffff80016fb000 0x1e000    0x1e000    com.apple.driver.AppleIntelCPUPowerManagement (222.0.0) 521F8CE9-4706-3AC7-9504-03354380846E <8 7 6 5 3 1>
+   98    0 0xffffff8001725000 0x2000     0x2000     com.apple.driver.AppleIntelCPUPowerManagementClient (222.0.0) 5AC74674-EE49-36E6-BBD7-1B9F033E92F4 <8 7 6 5 3 1>
 END APPLEINTELCPU LOG.
  
  
 APPLE LPC LOG:-
 Executing: /usr/bin/kmutil showloaded
 No variant specified, falling back to release
+  128    0 0xffffff7f826ff000 0x2000     0x2000     com.apple.driver.AppleLPC (3.1) 93046EED-ABB9-341D-9905-A353FC939C13 <127 14 6 5 3>
 END APPLE LPC LOG.
  
  
 APPLE HDA LOG:-
 Executing: /usr/bin/kmutil showloaded
 No variant specified, falling back to release
-  158    1 0xffffff7f825cf000 0x13000    0x13000    com.apple.driver.AppleHDAController (283.15) D2852DFB-1FF7-3E0E-82D8-BBD7F5F493E0 <157 156 123 16 9 8 7 6 3 1>
-  172    0 0xffffff7f82516000 0x92000    0x92000    com.apple.driver.AppleHDA (283.15) 45005D51-44C8-3CF1-8DA0-352A59B8DE78 <171 158 157 156 128 123 8 7 6 3 1>
+  133    1 0xffffff7f825ab000 0x13000    0x13000    com.apple.driver.AppleHDAController (283.15) 2180888A-8340-3930-9534-C3693D9599EA <132 131 125 14 8 7 6 5 3 1>
+  160    0 0xffffff7f824f6000 0x90000    0x90000    com.apple.driver.AppleHDA (283.15) 89B2DAFE-09C2-38F5-8218-51EAEC799425 <159 146 133 132 131 125 7 6 5 3 1>
+  162    0 0xffffff7f825c1000 0x1000     0x1000     com.apple.driver.AppleHDAHardwareConfigDriver (283.15) 3CF7A576-A5C4-30B8-8517-CC61DB2BEACC <5 3>
 END APPLE HDA LOG.
  
  
@@ -33,25 +35,41 @@ END LS FOR APPLEHDA.
  
  
 ASSERTIONS DUMP :-
-2022-04-15 01:15:30 -0400 
+2022-05-03 21:04:52 -0400 
 Assertion status system-wide:
-   BackgroundTask                 0
+   BackgroundTask                 1
    ApplePushServiceTask           0
    UserIsActive                   1
    PreventUserIdleDisplaySleep    0
    PreventSystemSleep             0
    ExternalMedia                  0
-   PreventUserIdleSystemSleep     0
+   PreventUserIdleSystemSleep     1
    NetworkClientActive            0
 Listed by owning process:
-   pid 148(WindowServer): [0x000000200009804b] 00:00:00 UserIsActive named: "com.apple.iohideventsystem.queue.tickle serviceID:100000505 name:AppleUserHIDEventSe product:USB Receiver eventType:17"  
-Kernel Assertions: 0x4=USB
-   id=500  level=255 0x4=USB creat=4/15/22, 1:10 AM description=com.apple.usb.externaldevice.1d100000 owner=IOUSBHostDevice
-   id=502  level=255 0x4=USB creat=4/15/22, 1:17 AM description=com.apple.usb.externaldevice.1a100000 owner=IOUSBHostDevice
-   id=504  level=255 0x4=USB creat=4/15/22, 1:20 AM description=com.apple.usb.externaldevice.1d140000 owner=Mobiles
-   id=505  level=255 0x4=USB creat=4/15/22, 1:21 AM description=com.apple.usb.externaldevice.1d150000 owner=BCM20702A0
-   id=506  level=255 0x4=USB creat=4/15/22, 1:22 AM description=com.apple.usb.externaldevice.1a120000 owner=USB Receiver
-   id=507  level=255 0x4=USB creat=4/15/22, 1:22 AM description=com.apple.usb.externaldevice.1a140000 owner=Laptop_Integrated_Webcam_2M
+   pid 290(mds_stores): [0x00000015000b8010] 00:00:31 BackgroundTask named: "com.apple.metadata.mds_stores.power"  
+   pid 357(UserEventAgent): [0x00000034000b80b7] 00:00:00 BackgroundTask named: "com.apple.ap.adprivacyd.reconcile"  
+	Created for PID: 492. 
+   pid 357(UserEventAgent): [0x00000031000b80a3] 00:00:02 BackgroundTask named: "com.apple.tourist.notify"  
+	Created for PID: 442. 
+   pid 137(WindowServer): [0x000000240009804f] 00:00:00 UserIsActive named: "com.apple.iohideventsystem.queue.tickle serviceID:1000004ea name:AppleUserHIDEventSe product:USB Receiver eventType:17"  
+   pid 111(apsd): [0x00000033000b80b4] 00:00:00 ApplePushServiceTask named: "com.apple.apsd-recreatecourierstate-push.apple.com"  
+   pid 111(apsd): [0x00000033000b80b0] 00:00:00 ApplePushServiceTask named: "com.apple.apsd-recreatecourierstate-sandbox.push.apple.com"  
+   pid 111(apsd): [0x00000029000b8053] 00:00:10 ApplePushServiceTask named: "com.apple.apsd-login"  
+   pid 172(nsurlsessiond): [0x00000032000180a8] 00:00:01 PreventUserIdleSystemSleep named: "NSURLSessionTask 5D320FA6-3F17-4A71-9860-7C91CA640615"  
+	Timeout will fire in 10799 secs Action=TimeoutActionTurnOff
+   pid 211(runningboardd): [0x00000033000180b2] 00:00:00 PreventUserIdleSystemSleep named: "daemon<com.apple.Spotlight(501)>211-417-97:com.apple.CFNetwork.StorageDB"  
+	Created for PID: 417. 
+   pid 211(runningboardd): [0x00000033000180b1] 00:00:00 PreventUserIdleSystemSleep named: "daemon<com.apple.touristd(501)>211-442-96:com.apple.CFNetwork.StorageDB"  
+	Created for PID: 442. 
+   pid 211(runningboardd): [0x00000033000180ac] 00:00:00 PreventUserIdleSystemSleep named: "daemon<com.apple.remindd(501)>211-477-95:com.apple.CFNetwork.StorageDB"  
+	Created for PID: 477. 
+   pid 99(mds): [0x00000015000b800f] 00:00:31 BackgroundTask named: "com.apple.metadata.mds.power"  
+Kernel Assertions: 0x104=USB,MAGICWAKE
+   id=502  level=255 0x4=USB creat=5/3/22, 9:20 PM description=com.apple.usb.externaldevice.1a120000 owner=USB Receiver
+   id=503  level=255 0x4=USB creat=5/3/22, 9:20 PM description=com.apple.usb.externaldevice.1d140000 owner=Mobiles
+   id=504  level=255 0x4=USB creat=5/3/22, 9:04 PM description=com.apple.usb.externaldevice.1d150000 owner=BCM20702A0
+   id=505  level=255 0x4=USB creat=5/3/22, 9:05 PM description=com.apple.usb.externaldevice.1a140000 owner=Laptop_Integrated_Webcam_2M
+   id=506  level=255 0x100=MAGICWAKE creat=5/3/22, 9:05 PM description=llw0 owner=IOSkywalkNetworkBSDClient
 Idle sleep preventers: IODisplayWrangler
 END DUMP FOR ASSERTIONS.
  

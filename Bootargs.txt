@@ -1,1 +1,1 @@
--v -no_compat_check amfi_get_out_of_my_way=1 keepsyms=1 debug=0x100 rtcfx_exclude=B0-FF
+-no_compat_check amfi_get_out_of_my_way=1 rtcfx_exclude=B0-FF

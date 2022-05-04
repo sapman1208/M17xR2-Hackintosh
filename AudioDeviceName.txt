@@ -1,4 +1,4 @@
-+-o HDEF@1B  <class IOPCIDevice, id 0x10000020e, registered, matched, active, busy 0 (901 ms), retain 12>
++-o HDEF@1B  <class IOPCIDevice, id 0x100000219, registered, matched, active, busy 0 (469 ms), retain 10>
     {
       "acpi-device" = "IOACPIPlatformDevice is not serializable"
       "IOPCIMSIMode" = Yes
@@ -9,7 +9,6 @@
       "IOPCIExpressLinkCapabilities" = 0
       "IOName" = "pci8086,3b56"
       "AFGLowPowerState" = <03000000>
-      "IOPCIUseDeviceMapper" = Yes
       "pcidebug" = "0:27:0"
       "layout-id" = <07000000>
       "IOPCIExpressLinkStatus" = 0
@@ -19,62 +18,62 @@
       "IOInterruptControllers" = ("io-apic-0","IOPCIMessagedInterruptController")
       "built-in" = <00>
       "IOPCIResourced" = Yes
+      "AAPL,slot-name" = "Built In"
       "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
       "IODeviceMemory" = (({"address"=67108864000,"length"=16384}))
-      "alc-layout-id" = <15000000>
-      "acpi-pmcap-offset" = 80
-      "name" = <"pci8086,3b56">
-      "subsystem-id" = <3a040000>
       "PinConfigurations" = <1010210420102104201081044010210430011790f0010040f0010040f0010040f00100404001a090f0010040f0010040f0010040f0010040>
+      "name" = "Audio Controller"
+      "subsystem-id" = <3a040000>
+      "acpi-pmcap-offset" = 80
+      "model" = <"Apple High Definition Audio Controller">
+      "alc-layout-id" = <15000000>
       "MaximumBootBeepVolumeAlt" = <7f>
+      "device_type" = <"Audio Controller">
       "compatible" = <"pci1028,43a","pci8086,3b56","pciclass,040300","HDEF">
       "IOReportLegendPublic" = Yes
       "reg" = <00d800000000000000000000000000000000000010d8000200000000000000000000000000400000>
-      "driver-child-bundle" = "com.apple.driver.AppleHDAController"
-      "MaximumBootBeepVolume" = <7f>
+      "MaximumBootBeepVolume" = <01>
       "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182070784,4295098369,"               First Level Interrupt Handler Count"),(5291294645182070785,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182070786,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182070787,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182070788,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="HDEF 1"})
       "device-id" = <563b0000>
       "revision-id" = <06000000>
-      "IOInterruptSpecifiers" = (<1600000007000000>,<0600000000000100>)
+      "IOInterruptSpecifiers" = (<1600000007000000>,<0100000000000100>)
       "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/HDEF@1b0000"
     }
     
 
-+-o HDAU@0,1  <class IOPCIDevice, id 0x10000024b, registered, matched, active, busy 0 (706 ms), retain 10>
++-o HDAU@0,1  <class IOPCIDevice, id 0x100000257, registered, matched, active, busy 0 (399 ms), retain 10>
     {
       "assigned-addresses" = <100102820000000000c0eebf0000000000400000>
-      "vendor-id" = <02100000>
+      "IOInterruptSpecifiers" = (<1100000007000000>,<0600000000000100>)
       "class-code" = <00030400>
-      "subsystem-vendor-id" = <28100000>
-      "IOPCIExpressLinkCapabilities" = 33557762
-      "hda-gfx" = <"onboard-1">
-      "IOName" = "pci1002,aa30"
-      "DigitalAudioCapabilities" = {"DisplayPort"=0,"HDMI"=1}
-      "IOPCIUseDeviceMapper" = Yes
-      "pcidebug" = "2:0:1"
-      "IOChildIndex" = 2
-      "layout-id" = <07000000>
-      "IOPCIExpressLinkStatus" = 4226
-      "pci-aspm-default" = 0
-      "IOPCIExpressCapabilities" = 18
-      "IOServiceDEXTEntitlements" = (("com.apple.developer.driverkit.transport.pci"))
-      "IOInterruptControllers" = ("io-apic-0","IOPCIMessagedInterruptController")
-      "IOPCIResourced" = Yes
-      "built-in" = <00>
-      "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
       "IODeviceMemory" = (({"address"=3220094976,"length"=16384}))
-      "PinConfigurations" = <e0005628>
-      "name" = <"pci1002,aa30">
-      "subsystem-id" = <3a040000>
-      "compatible" = <"pci1028,43a","pci1002,aa30","pciclass,040300","HDAU">
       "IOReportLegendPublic" = Yes
-      "reg" = <00010200000000000000000000000000000000001001020200000000000000000000000000400000>
-      "driver-child-bundle" = "com.apple.driver.AppleHDAController"
-      "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182070784,4295098369,"               First Level Interrupt Handler Count"),(5291294645182070785,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182070786,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182070787,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182070788,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="HDAU 1"})
-      "device-id" = <30aa0000>
-      "revision-id" = <00000000>
-      "IOInterruptSpecifiers" = (<1100000007000000>,<0400000000000100>)
+      "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+      "subsystem-vendor-id" = <28100000>
+      "built-in" = <00>
+      "pci-aspm-default" = 0
+      "PinConfigurations" = <e0005628>
+      "hda-gfx" = <"onboard-1">
+      "IOInterruptControllers" = ("io-apic-0","IOPCIMessagedInterruptController")
       "IOPCIMSIMode" = Yes
+      "vendor-id" = <02100000>
+      "name" = <"pci1002,aa30">
+      "device-id" = <30aa0000>
+      "IOChildIndex" = 2
+      "IOPCIResourced" = Yes
+      "layout-id" = <07000000>
+      "compatible" = <"pci1028,43a","pci1002,aa30","pciclass,040300","HDAU">
+      "IOServiceDEXTEntitlements" = (("com.apple.developer.driverkit.transport.pci"))
+      "IOPCIExpressLinkCapabilities" = 33557762
+      "DigitalAudioCapabilities" = {"DisplayPort"=0,"HDMI"=1}
+      "subsystem-id" = <3a040000>
+      "revision-id" = <00000000>
+      "IOPCIExpressLinkStatus" = 4226
+      "IOPCIExpressCapabilities" = 18
+      "pcidebug" = "2:0:1"
+      "IOName" = "pci1002,aa30"
+      "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182070784,4295098369,"               First Level Interrupt Handler Count"),(5291294645182070785,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182070786,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182070787,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182070788,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="HDAU 1"})
+      "reg" = <00010200000000000000000000000000000000001001020200000000000000000000000000400000>
     }
     
 

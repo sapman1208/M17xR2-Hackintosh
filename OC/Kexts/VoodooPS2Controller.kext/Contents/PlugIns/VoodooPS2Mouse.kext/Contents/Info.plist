@@ -63,7 +63,7 @@
 					<key>ActLikeTrackpad</key>
 					<false/>
 					<key>ButtonCount</key>
-					<integer>3</integer>
+					<integer>2</integer>
 					<key>Darwin 16+</key>
 					<dict>
 						<key>ApplePreferenceCapability</key>
@@ -79,11 +79,11 @@
 						<key>TrackpadEmbedded</key>
 						<true/>
 						<key>TrackpadFourFingerGestures</key>
-						<false/>
+						<true/>
 						<key>TrackpadSecondaryClickCorners</key>
 						<true/>
 						<key>TrackpadThreeFingerDrag</key>
-						<false/>
+						<true/>
 					</dict>
 					<key>DefaultResolution</key>
 					<integer>240</integer>

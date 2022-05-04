@@ -1,12 +1,11 @@
 System-wide power settings:
 Currently in use:
- hibernatemode        0
- halfdim              1
- womp                 0
+ hibernatemode        3
+ womp                 1
  networkoversleep     0
  standbydelaylow      4200
  ttyskeepawake        1
- sleep                10
+ sleep                10 (sleep prevented by mds_stores, UserEventAgent, UserEventAgent, apsd, apsd, apsd, nsurlsessiond, nsurlsessiond, runningboardd, runningboardd, runningboardd, mds)
  hibernatefile        /var/vm/sleepimage
  disksleep            10
  standby              0
