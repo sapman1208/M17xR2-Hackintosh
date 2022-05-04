@@ -60,6 +60,8 @@ Rear Headphone Jack (Front one works and switches between speaker/headphone. Int
 
 Line out jack
 
+Apple Watch Unlock
+
 DRM
 
 Airplay Display
